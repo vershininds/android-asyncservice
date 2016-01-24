@@ -1,1 +1,1 @@
-include 'android-asyncservice-api', 'android-asyncservice-processors', 'android-asyncservice', 'android-asyncservice-demo'
+include 'android-asyncservice-api', 'android-asyncservice-processors', 'android-asyncservice-cache', 'android-asyncservice-demo'

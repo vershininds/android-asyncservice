@@ -46,7 +46,8 @@ public class MainActivity extends Activity {
         findViewById(R.id.button).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                service.getUserAsyncWithCache(3L);
+//                service.getUserAsyncWithCache(3L);
+                service.getUserAsync(3L);
             }
         });
     }

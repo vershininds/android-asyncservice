@@ -55,7 +55,7 @@ import static java.util.EnumSet.of;
 import static javax.lang.model.element.Modifier.*;
 
 @SupportedAnnotationTypes({"com.joanzapata.android.asyncservice.api.annotation.OnMessage", "com.joanzapata.android.asyncservice.api.annotation.InjectService"})
-@SupportedSourceVersion(SourceVersion.RELEASE_6)
+@SupportedSourceVersion(SourceVersion.RELEASE_7)
 public class InjectAP extends AbstractProcessor {
 
     public static final String INJECTOR_SUFFIX = "Injector";

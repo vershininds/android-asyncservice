@@ -59,7 +59,7 @@ import static java.util.EnumSet.of;
 import static javax.lang.model.element.Modifier.*;
 
 @SupportedAnnotationTypes({"com.joanzapata.android.asyncservice.api.annotation.AsyncService"})
-@SupportedSourceVersion(SourceVersion.RELEASE_6)
+@SupportedSourceVersion(SourceVersion.RELEASE_7)
 public class AsyncServiceAP extends AbstractProcessor {
 
     public static final String GENERATED_CLASS_SUFFIX = "Impl";
